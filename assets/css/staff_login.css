@@ -1,0 +1,30 @@
+.return-to-original {
+    display: none;
+}
+
+.impersonating-indicator {
+    background: #fff3cd;
+    color: #856404;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-top: 1px solid #ffeeba;
+}
+
+.impersonating-indicator .return-link {
+    color: #533f03;
+    text-decoration: underline;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.impersonating-indicator .return-link:hover {
+    color: #533f03;
+    text-decoration: none;
+}
+ 
